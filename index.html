@@ -70,7 +70,7 @@ body{
 // ======================================
 // DATA
 // ======================================
-const numbers = ["La Divinité","La Grâce","Le Paradis","L'Angélique","La Création","L'Infini","Le Multivers","L'Origine","L'Espace Sacré","L'Éveil","Le Vrai Soi","La Vie Est Belle","L'Arc-En-Ciel","La Vie Est Magnifique","Le Monde Est Merveilleux","La Découverte","Tout Va Bien","La Positivité","L'Environnement Sain","L'Amitié","La Légèreté","L'Abondance","La Jeunesse Éternelle","La Beauté","La sensualité","La Richesse","L'Authenticité","Le Charisme","La Sincérité","L'Éternité","La Jouvence","La pleine forme","Le Raffiné","La Perfection","Le Succès","La Pêche","La Vitalité","La spontanéité","L'optimisme","La Bonne Santé","La Passion","La Réalisation","L'agréable","La capacité","Le Bien","La Douceur","L'Amour Universel","La Liberté","La Jouissance","Le Bien-être","La sexualité","La Vivacité","L'agilité","La Lucidité","L'acuité","L'instinct","La Joie","La Confiance","La Qualité","La Dignité","La Spiritualité","La Clairvoyance","La Perspicacité","La compréhension","Le Plaisir","La Satisfaction","L'Aisance","L'Honnêteté","La Sagesse","L'Agapè","Le Bonheur","Florès","La Volupté","Épanoui","L'Harmonie","Merci","Namasté"];
+const numbers = ["La Divinité","La Grâce","Le Paradis","L'Angélique","La Création","L'Infini","Le Multivers","L'Origine","L'Espace Sacré","L'Éveil","Le Vrai Soi","La Vie Est Belle","L'Arc-En-Ciel","La Vie Est Magnifique","Le Monde Est Merveilleux","La Découverte","Tout Va Bien","La Positivité","L'Environnement Sain","L'Amitié","La Légèreté","L'Abondance","La Jeunesse Éternelle","La Beauté","La Sensualité","La Richesse","L'Authenticité","Le Charisme","La Sincérité","L'Éternité","La Jouvence","La pleine forme","Le Raffiné","La Perfection","Le Succès","La Pêche","La Vitalité","La Spontanéité","L'Optimisme","La Bonne Santé","La Passion","La Réalisation","L'Agréable","La Capacité","Le Bien","La Douceur","L'Amour Universel","La Liberté","La Jouissance","Le Bien-être","La Sexualité","La Vivacité","L'Agilité","La Lucidité","L'Acuité","L'Instinct","La Joie","La Confiance","La Qualité","La Dignité","La Spiritualité","La Clairvoyance","La Perspicacité","La Compréhension","Le Plaisir","La Satisfaction","L'Aisance","L'Honnêteté","La Sagesse","L'Agapè","Le Bonheur","Florès","La Volupté","Épanoui","L'Harmonie","Merci","Namasté"];
   // COLORS
 // ======================================
 
@@ -98,10 +98,10 @@ const parameterSets = [
 
 {
 //396
-    cycleDuration: 330.989898,
+      cycleDuration: 330.989898,
     phaseStep: 2.585858,
     minInterval: 80.808080,
-    maxInterval: 323.232323
+    maxInterval: 161.6161615
 },
 
 {
@@ -109,42 +109,42 @@ const parameterSets = [
     cycleDuration: 314.321342,
     phaseStep: 2.455635,
     minInterval: 76.738609,
-    maxInterval:306.954436
+    maxInterval: 153.477218
 },
 {
 //528
     cycleDuration: 279.272727,
     phaseStep: 1.939393,
     minInterval: 90.909090,
-    maxInterval:323.232323
+    maxInterval:161.616161
 },
 {
 //639
     cycleDuration: 205.120500,
     phaseStep: 1.602503,
     minInterval: 100.156494,
-    maxInterval:400.625978
+    maxInterval:200.312989
 },
 {
 //741
     cycleDuration: 353.770580,
     phaseStep: 1.381916,
     minInterval: 86.369770,
-    maxInterval:345.479082
+    maxInterval:172.739541
 },
 {
 //852
     cycleDuration: 307.680751,
     phaseStep: 2.403755,
     minInterval: 75.117370,
-    maxInterval:300.469483
+    maxInterval:150.234741
 },
 {
 //963
     cycleDuration: 272.215991,
     phaseStep: 2.126687,
-    minInterval: 132.917964,
-    maxInterval:265.835929
+     minInterval: 66.458982,
+    maxInterval:132.917964
 }
 
 ];
@@ -426,7 +426,7 @@ if(
     completedCycles++;
 
     if(
-        completedCycles % 6 === 0
+        completedCycles % 3 === 0
     ){
 
         parameterIndex +=
